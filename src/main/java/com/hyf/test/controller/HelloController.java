@@ -26,14 +26,17 @@ public class HelloController implements Serializable {
     @RequestMapping("1")
     public boolean modifySelf() {
         System.out.println(Arrays.toString(getClass().getInterfaces()));
+        // System.out.println(1);
         // aaa();
         // Invoker.aaa();
+        // superExist();
+        // superProtectMethod();
         return true;
     }
 
-    public void aaa() {
-        System.out.println(1);
-    }
+    // public void aaa() {
+    //     System.out.println(1);
+    // }
 
     @RequestMapping("2")
     public boolean loadOuterClass() {
