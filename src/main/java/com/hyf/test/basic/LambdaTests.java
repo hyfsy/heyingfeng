@@ -5,7 +5,7 @@ import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 /**
- * -Djdk.internal.lambda.dumpProxyClasses
+ * -Djdk.internal.lambda.dumpProxyClasses=. -Djava.lang.invoke.MethodHandle.DUMP_CLASS_FILES=true
  *
  * @author baB_hyf
  * @date 2022/07/17
